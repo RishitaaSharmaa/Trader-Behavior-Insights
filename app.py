@@ -49,7 +49,7 @@ if page == "Insights Dashboard":
     ax2.set_title("Correlation Between Market Sentiment and Trader Metrics")
     st.pyplot(fig2)
     st.markdown("This heatmap provides an overview of how sentiment data (Fear and Greed Index) correlates with trading statistics.")
-    st.info("For example, higher greed scores are often associated with more trades and fees, but not always with higher profits. A weak correlation between sentiment and PnL may indicate that emotions drive volume but not necessarily outcomes. Look for variables with strong correlations to derive actionable insights.")
+    st.info("More Trades, More Costs: When traders place a lot of trades, they end up paying more in fees. This doesn’t always lead to higher profits, meaning being more active doesn't guarantee better results.S entiment Doesn't Predict Profit Clearly: Even when the market is very fearful or overly greedy, it doesn't strongly affect whether traders make or lose money — suggesting emotions in the market don't always match trading success.")
 
     
     st.subheader("Market Sentiment vs Total PnL")
